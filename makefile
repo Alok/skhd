@@ -8,7 +8,7 @@ BINS           = $(BUILD_PATH)/skhd
 
 all: clean $(BINS)
 
-install: BUILD_FLAGS=-std=c99 -O2
+install: BUILD_FLAGS=-std=c99 -O0
 install: clean $(BINS)
 
 clean:
